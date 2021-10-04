@@ -1,0 +1,49 @@
+
+/*FormUI Wrapper Styles*/
+.formUI {
+  background-color: white;
+  padding: 1rem;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);  
+}
+.formUI h1 {
+    text-align: center;
+    color: rgb(30, 144, 255);
+  }
+
+
+  /*FormUI-Control Wrapper Styles*/
+.formUI-control {
+  margin: 0.5rem 0;
+  width: 100%;
+  padding: 0 2rem;
+}
+
+ .formUI-control label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.formUI-control input,
+.formUI-control textarea {
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+  font: inherit;
+  line-height: 1.5rem;
+  padding: 0.3rem 0.25rem;
+}
+.formUI-control input:focus,
+.formUI-control textarea:focus {
+  outline: none;
+  background: rgba(30, 143, 255, 0.123);
+  border-color: rgb(30, 144, 255);
+}
+.formUI-control.invalid input,
+.formUI-control.invalid textarea {
+  border: 1px solid red;
+  background-color: rgb(202, 131, 131);
+}
+.formUI-control.invalid label {
+  color: red;
+}
