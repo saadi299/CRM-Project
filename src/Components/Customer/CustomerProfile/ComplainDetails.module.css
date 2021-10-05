@@ -1,0 +1,32 @@
+.complain-details{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);  
+}
+.complain-details h4{
+    margin: 2rem 0;
+}
+
+.complain-details ul{
+    list-style: none;
+}
+.complain-details li{
+    padding: 1rem 2rem;
+    width: 100%;
+    background-color: rgba(0, 128, 128, 0.082);
+    margin-bottom: 1rem;
+    display: flex; 
+}
+.complain-details li div{
+    padding: 0rem 3rem;
+    margin:0;
+    flex: 1;
+    max-width: 50%;
+    height: auto;
+    word-wrap: break-word;
+}
+.info{
+   max-width: 100%;
+}

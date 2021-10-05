@@ -61,7 +61,7 @@ function AllComplaints(props) {
   return (
     <div>
       <MaterialTable
-        title="All Comments"
+        title="All Complaints"
         data={data}
         columns={columns}
         options={{ paging: false, exportButton: true }}

@@ -4,6 +4,7 @@ import Face from "../../../Images/face.jpg";
 import ComplaintsForm from "./ComplaintsForm";
 import AllComplaints from "./AllComplaints";
 import CustomerProfile from "./CustomerProfile";
+import ComplainDetails from "./ComplainDetails";
 import { Route, Link } from "react-router-dom";
 
 function Profile(props) {
@@ -25,6 +26,9 @@ function Profile(props) {
         <Link className={classes["profile-menu"]} to="/AllComplaints">
           All Complaints
         </Link>
+        <Link className={classes["profile-menu"]} to="/ComplainDetails">
+          Complain Details
+        </Link>
         <div></div>
       </div>
 
@@ -39,6 +43,9 @@ function Profile(props) {
 
         <Route exact path="/AllComplaints">
           <AllComplaints></AllComplaints>
+        </Route>
+        <Route exact path="/ComplainDetails">
+          <ComplainDetails/>
         </Route>
       </div>
     </div>

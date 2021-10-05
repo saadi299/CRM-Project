@@ -1,19 +1,25 @@
 import CustomerRegistration from "./Components/Customer/CustomerRegistration";
 import CustomerLogin from "./Components/Customer/CustomerLogin";
 import Profile from "./Components/Customer/CustomerProfile/Profile";
-import {BrowserRouter,Route} from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Navbar from "./Components/CrmLanding/Navbar";
+import { Link } from "react-router-dom";
 
 function App() {
   return (
     <div>
-        {/* <CustomerLogin></CustomerLogin> 
-      <CustomerRegistration></CustomerRegistration> */}
-      <BrowserRouter>
-      <Route path="/">
-        <Profile></Profile> 
-      </Route>
-      </BrowserRouter>
-     
+      <Router>
+        <Navbar/>
+        
+
+
+
+
+
+        <Route path="/">
+          <Profile></Profile>
+        </Route> 
+      </Router>
     </div>
   );
 }

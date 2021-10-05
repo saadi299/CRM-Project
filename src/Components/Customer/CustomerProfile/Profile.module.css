@@ -2,7 +2,6 @@
   width: 100vw;
   height: 100vh;
   background-color: white;
- 
   display: flex;
 }
 .profile-left {
@@ -11,6 +10,7 @@
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
   padding: 1rem;
   background-color: rgb(30,144,255);
+  margin: 1rem;
 }
 .profile-left h5{
     margin: 1rem 0;
